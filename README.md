@@ -91,13 +91,21 @@ python check.py --full --save output/diagnostico.txt
 Saída em JSON:
 
 ```bash
+#Relatório formatado json
 python check.py --full --json
+
+#Relatório formatado texto
+python check.py --full
 ```
 
 Salvar JSON:
 
 ```bash
+#Salvar como json
 python check.py --full --json --save output/diagnostico.json
+
+#Salvar como texto
+python check.py --full --save output/diagnostico.txt
 ```
 
 ---
