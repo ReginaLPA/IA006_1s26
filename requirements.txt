@@ -1,0 +1,7 @@
+pandas
+streamlit
+requests
+ipython
+ipykernel
+jupyter-lsp
+jedi

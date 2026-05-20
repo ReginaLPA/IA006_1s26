@@ -1,0 +1,20 @@
+# Screenshot do Dashboard
+
+Adicione o arquivo `screenshot.png` nesta pasta `assets/` para mostrar uma captura de tela estática do dashboard.
+
+Exemplo de uso:
+
+- No `README.md` (Markdown):
+
+	![Screenshot do Dashboard](assets/screenshot.png)
+
+- Em um Jupyter Notebook (Markdown cell):
+
+	![](assets/screenshot.png)
+
+- Em Streamlit:
+
+	import streamlit as st
+	st.image('assets/screenshot.png')
+
+Observação: coloque o arquivo exatamente com o nome `screenshot.png` dentro desta pasta.

@@ -1,0 +1,21 @@
+# Demo GIF
+
+Adicione o arquivo `demo.gif` nesta pasta `assets/` para servir como demo animada do notebook/dashboard.
+
+Exemplo de uso:
+
+- No `README.md` (Markdown):
+
+	![Demo do Notebook/Dashboard](assets/demo.gif)
+
+- Em um Jupyter Notebook (Python):
+
+	from IPython.display import Image, display
+	display(Image('assets/demo.gif'))
+
+- Em Streamlit:
+
+	import streamlit as st
+	st.image('assets/demo.gif')
+
+Observação: coloque o arquivo exatamente com o nome `demo.gif` dentro desta pasta.
