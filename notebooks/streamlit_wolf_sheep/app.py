@@ -111,7 +111,8 @@ st.markdown(
         <p class="hero-title">🐺🐑 Wolf Sheep Simple 3 — Modelo Integrado</p>
         <p class="hero-subtitle">
             Simulação baseada em agentes com visualização espacial estilo NetLogo, parâmetros ajustáveis,
-            genética mendeliana, estações, doenças, migração, obstáculos e dashboard analítico.
+            genética mendeliana, estações, doenças, migração, obstáculos e dashboard analítico.<br>
+            Tem como objetivo ser um laboratório para mostrar a complexidade de forma visual, experimental e acessível.
         </p>
     </div>
     """,
@@ -1137,6 +1138,21 @@ if "df_result" not in st.session_state or st.session_state.df_result.empty:
         - **Mendel:** herança e recombinação genética.
         - **Darwin:** seleção natural por sobrevivência e reprodução diferencial.
         - **Sistemas complexos:** emergência, auto-organização, feedback e coevolução.
+        
+        #### Relação com os autores da literatura de sistemas complexos
+
+        - **Joshua M. Epstein e Robert Axtell** ajudam a interpretar o modelo como uma sociedade artificial construída de baixo para cima (bottom-up), na qual padrões globais emergem das regras locais dos agentes. No Wolf Sheep, não há um controlador central: o comportamento coletivo surge das interações entre grama, ovelhas e lobos.
+       
+        - **W. Brian Arthu** contribui com a ideia de feedback positivo, dependência histórica (path dependence) e trajetórias que se reforçam ao longo do tempo. No modelo, uma sequência inicial de abundância ou escassez pode direcionar todo o futuro do sistema, favorecendo estabilidade, crescimento ou colapso.
+       
+        - **Stuart A. Kauffman** aparece na ideia de auto-organização e ordem emergente em sistemas vivos. Mesmo sem planejamento global, o ecossistema pode formar padrões relativamente estáveis, ciclos populacionais ou reorganizações após perturbações.
+       
+        - **Melanie Mitchell** ajuda a compreender a complexidade como resultado da interação entre adaptação, emergência, evolução e múltiplos níveis de organização. No modelo, regras individuais simples produzem comportamentos coletivos complexos ao longo do tempo.
+        
+        - **Ilya Prigogine e Grégoire Nicolis** se relacionam com o fato de o ecossistema estar fora do equilíbrio. O sistema se reorganiza continuamente diante de fluxos de energia, escassez, morte, reprodução, doença, migração e perturbações ambientais.
+       
+        - **Albert-László Barabási e Steven H. Strogatz** ajudam a ler o modelo como uma rede dinâmica de interações: quem caça quem, quem compete por recurso, quem transmite doença, quem se reproduz com quem e como os agentes se distribuem no espaço.
+        
         """
     )
 else:
