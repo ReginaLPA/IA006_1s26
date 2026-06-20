@@ -1143,7 +1143,7 @@ if "df_result" not in st.session_state or st.session_state.df_result.empty:
 
         - **Joshua M. Epstein e Robert Axtell** ajudam a interpretar o modelo como uma sociedade artificial construída de baixo para cima (bottom-up), na qual padrões globais emergem das regras locais dos agentes. No Wolf Sheep, não há um controlador central: o comportamento coletivo surge das interações entre grama, ovelhas e lobos.
        
-        - **W. Brian Arthu** contribui com a ideia de feedback positivo, dependência histórica (path dependence) e trajetórias que se reforçam ao longo do tempo. No modelo, uma sequência inicial de abundância ou escassez pode direcionar todo o futuro do sistema, favorecendo estabilidade, crescimento ou colapso.
+        - **W. Brian Arthur** contribui com a ideia de feedback positivo, dependência histórica (path dependence) e trajetórias que se reforçam ao longo do tempo. No modelo, uma sequência inicial de abundância ou escassez pode direcionar todo o futuro do sistema, favorecendo estabilidade, crescimento ou colapso.
        
         - **Stuart A. Kauffman** aparece na ideia de auto-organização e ordem emergente em sistemas vivos. Mesmo sem planejamento global, o ecossistema pode formar padrões relativamente estáveis, ciclos populacionais ou reorganizações após perturbações.
        
